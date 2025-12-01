@@ -1,1 +1,16 @@
-<resources><string name="app_name">MenetPro</string></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MenetPro</string>
+
+    <string name="navigation_drawer_open">Menü megnyitása</string>
+    <string name="navigation_drawer_close">Menü bezárása</string>
+
+    <string name="menu_search">Keresés</string>
+    <string name="menu_favorites">Kedvencek</string>
+    <string name="menu_about">Névjegy</string>
+
+    <string name="search_from_hint">Honnan?</string>
+    <string name="search_to_hint">Hová?</string>
+    <string name="search_pick_date_time">Dátum és idő választása</string>
+    <string name="search_button">Keresés</string>
+</resources>
