@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/et_edit_from"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Honnan"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <EditText
+            android:id="@+id/et_edit_to"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Hová"
+            app:layout_constraintTop_toBottomOf="@id/et_edit_from"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/et_edit_departure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Indulás (HH:MM)"
+            app:layout_constraintTop_toBottomOf="@id/et_edit_to"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/et_edit_arrival"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Érkezés (HH:MM)"
+            app:layout_constraintTop_toBottomOf="@id/et_edit_departure"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/et_edit_duration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Menetidő (perc)"
+            android:inputType="number"
+            app:layout_constraintTop_toBottomOf="@id/et_edit_arrival"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/et_edit_transfers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Átszállások"
+            android:inputType="number"
+            app:layout_constraintTop_toBottomOf="@id/et_edit_duration"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/et_edit_operator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Szolgáltató"
+            app:layout_constraintTop_toBottomOf="@id/et_edit_transfers"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/et_edit_image_url"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Kép URL (opcionális)"
+            app:layout_constraintTop_toBottomOf="@id/et_edit_operator"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
