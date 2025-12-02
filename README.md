@@ -79,7 +79,7 @@ Készítették: **Rózsavári Zsolt (D3TOTJ)** és **Sallai Norbert (CJDYAF)**.
 
 ## Technológiai követelmények
 
-- **Android Studio**, **Android SDK**
+- **Android Studio**
 - **Java** (forráskód)
 - **1 Activity** + több Fragment:
   - `MainActivity`
