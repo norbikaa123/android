@@ -97,5 +97,3 @@ Készítették: **Rózsavári Zsolt (D3TOTJ)** és **Sallai Norbert (CJDYAF)**.
   - `AppDatabase`
 - **Glide** nagyfelbontású képek betöltésére
 
-A projekt git repository-ba tehető, ahol mindkét csapattag
-önálló commitokkal tud hozzájárulni a beadandóhoz.
