@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="sort_options">
-        <item>Indulási idő szerint</item>
-        <item>Érkezési idő szerint</item>
-        <item>Átszállások száma szerint</item>
-    </string-array>
-</resources>
