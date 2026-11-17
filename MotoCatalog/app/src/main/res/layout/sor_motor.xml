@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+ android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp"
+ android:background="@drawable/kartya_hatter" android:elevation="2dp" android:padding="10dp">
+ <ImageView android:id="@+id/sorKep" android:layout_width="120dp" android:layout_height="110dp" android:scaleType="fitCenter" android:contentDescription="Motor képe" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+ <TextView android:id="@+id/sorNev" android:layout_width="0dp" android:layout_height="wrap_content" android:textColor="#24354B" android:textStyle="bold" android:textSize="17sp" android:layout_marginStart="12dp" app:layout_constraintStart_toEndOf="@id/sorKep" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/sorKep"/>
+ <TextView android:id="@+id/sorAdat" android:layout_width="0dp" android:layout_height="wrap_content" android:textColor="#657488" android:textSize="14sp" android:layout_marginStart="12dp" android:layout_marginTop="8dp" app:layout_constraintStart_toEndOf="@id/sorKep" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/sorNev"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
