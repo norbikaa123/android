@@ -24,3 +24,4 @@ public class Motor {
         return marka + ":" + slug;
     }
 }
+ 
