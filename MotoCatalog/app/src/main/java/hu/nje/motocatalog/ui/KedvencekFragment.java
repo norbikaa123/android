@@ -81,3 +81,4 @@ public class KedvencekFragment extends Fragment {
         hatter.shutdown();
     }
 }
+ 
